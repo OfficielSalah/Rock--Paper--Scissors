@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face { font-family:mocb ;src: url('fonts/MountainsofChristmas-Bold.ttf')}
+body{
+    background-color:rgb(18, 10, 35);
+}
+header {
+    background-color: white;
+}
+header  h1 {
+    text-align: center;
+    padding: 20px;
+    color:rgb(18, 10, 35);
+    font-family: mocb;
+    word-spacing: 28px;
+    letter-spacing: 2px;
+    font-size: 2.8em;
+}
+.score-board{
+    border: 2px solid white;
+    border-radius: 4px;
+    margin: 15px auto;
+    width: 220px;
+    position: relative;
+    height: 90px;
+}
+.label{
+    background-color: rgb(224, 77, 77);
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    padding: 1px;
+}
+.user-label{
+    top:31px;;
+    left:-20px;
+}
+.comp-label{
+    right: -24px;
+    top: 31px;
+}
+main{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+}
+main span{
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 10px;
+}
+.scores{
+    margin: 23px auto;
+}
+.choices{
+    margin-top: 25px;
+}
+.choice{
+    display: inline;
+}
+.choice > img{
+    width: 160px;
+    height: 160px;
+    display: inline;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: rgb(224, 77, 77);
+}
+img:hover{
+    cursor: pointer;
+    border-style: inset;
+    opacity: 0.9;
+}
+footer{
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.message{
+    padding-top: 20px;
+    font-size: 1.8em;
+}
+.red{
+    border: 3px solid red;
+}
+.green{
+    border: 3px solid green;
+}
